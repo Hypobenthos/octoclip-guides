@@ -2,10 +2,17 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+	srcExclude: [
+		"/README*.md",
+  		"/CONTRIBUTING*.md",
+	],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/hypobenthos/octoclip-guides" },
+			{
+				icon: "github",
+				link: "https://github.com/hypobenthos/octoclip-guides",
+			},
 		],
 
 		footer: {
