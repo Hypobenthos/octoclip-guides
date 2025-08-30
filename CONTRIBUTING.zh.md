@@ -11,7 +11,7 @@
 ### Fork 并克隆
 
  ```bash
- git clone https://github.com/YOUR_NAME/octoclip-guides.git
+ git clone https://github.com/hypobenthos/octoclip-guides.git
  ```
 
 ### 创建分支
