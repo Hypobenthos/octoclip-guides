@@ -11,7 +11,7 @@ Thank you for your interest in contributing to **Octoclip Guides**!
 ### Fork & Clone
 
  ```bash
- git clone https://github.com/YOUR_NAME/octoclip-guides.git
+ git clone https://github.com/hypobenthos/octoclip-guides.git
  ```
 
 ### Create a Branch
