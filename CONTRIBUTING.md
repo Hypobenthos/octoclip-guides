@@ -1,5 +1,7 @@
 # Contributing Guide
 
+[中文说明](./CONTRIBUTING.zh.md) | [English](./CONTRIBUTING.md)
+
 Thank you for your interest in contributing to **Octoclip Guides**!
 
 ---

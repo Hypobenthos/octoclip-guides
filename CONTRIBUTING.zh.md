@@ -1,5 +1,7 @@
 # 贡献指南
 
+[中文说明](./CONTRIBUTING.zh.md) | [English](./CONTRIBUTING.md)
+
 感谢你愿意为 **章鱼速贴 用户指南** 做出贡献！
 
 ---
