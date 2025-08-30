@@ -5,7 +5,7 @@ export default defineConfig({
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/vuejs/vitepress" },
+			{ icon: "github", link: "https://github.com/hypobenthos/octoclip-guides" },
 		],
 
 		footer: {
@@ -56,56 +56,36 @@ export default defineConfig({
 						{
 							text: "Overview",
 							items: [
-								{
-									text: "Features Overview",
-									link: "/features/overview",
-								},
+								{ text: "Features Overview", link: "/features/overview" },
 							],
 						},
 						{
-							text: "Core",
-							items: [
-								{
-									text: "Clip History",
-									link: "/features/clip-history",
-								},
-								{ 
-									text: "Pin Clips", 
-									link: "/features/pin-clips" 
-								},
-								{
-									text: "Quick Input",
-									link: "/features/quick-input",
-								},
-								{
-									text: "Quick Input Alias",
-									link: "/features/quick-input-alias",
-								},
-								{
-									text: "Temp Clip",
-									link: "/features/temp-clip",
-								},
-								
-							],
+							text: "Basics",
+							items: [{ text: "Clip History", link: "/features/clip-history" }],
 						},
 						{
 							text: "Sync",
 							items: [
-								{
-									text: "Nearby Sync",
-									link: "/features/nearby-sync",
-								},
-								{
-									text: "Cloud Sync",
-									link: "/features/cloud-sync",
-								},
+								{ text: "Nearby Sync", link: "/features/nearby-sync" },
+								{ text: "Cloud Sync", link: "/features/cloud-sync" },
 							],
 						},
 						{
-							text: "Smart & Ext",
+							text: "Everyday Tips",
 							items: [
-								{ text: "Plugins", link: "/features/plugins" },
+								{
+									text: "Cross-device Copy & Paste",
+									link: "/features/cross-device-copy-paste",
+								},
+								{ text: "Pin Clips", link: "/features/pin-clips" },
+								{ text: "Quick Input", link: "/features/quick-input" },
+								{ text: "Aliases", link: "/features/quick-input-alias" },
+								{ text: "Temporary Clip", link: "/features/temp-clip" },
 							],
+						},
+						{
+							text: "Extensions",
+							items: [{ text: "Plugins", link: "/features/plugins" }],
 						},
 					],
 
@@ -220,61 +200,39 @@ export default defineConfig({
 					"/zh/features/": [
 						{
 							text: "总览",
-
+							items: [{ text: "功能概览", link: "/zh/features/overview" }],
+						},
+						{
+							text: "基础功能",
+							items: [{ text: "剪贴历史", link: "/zh/features/clip-history" }],
+						},
+						{
+							text: "跨设备同步",
 							items: [
-								{
-									text: "功能概览",
-									link: "/zh/features/overview",
-								},
+								{ text: "附近同步", link: "/zh/features/nearby-sync" },
+								{ text: "云同步", link: "/zh/features/cloud-sync" },
 							],
 						},
 						{
-							text: "核心功能",
+							text: "常用技巧",
 							items: [
 								{
-									text: "剪贴历史",
-									link: "/zh/features/clip-history",
+									text: "跨设备复制粘贴",
+									link: "/zh/features/cross-device-copy-paste",
 								},
-								{
-									text: "固定剪贴",
-									link: "/zh/features/pin-clips",
-								},
-								{
-									text: "快速输入",
-									link: "/zh/features/quick-input",
-								},
-								{
-									text: "剪贴别名",
-									link: "/zh/features/quick-input-alias",
-								},
-								{
-									text: "临时剪贴",
-									link: "/zh/features/temp-clip",
-								},
+								{ text: "固定剪贴", link: "/zh/features/pin-clips" },
+								{ text: "快速输入", link: "/zh/features/quick-input" },
+								{ text: "剪贴别名", link: "/zh/features/quick-input-alias" },
+								{ text: "临时剪贴", link: "/zh/features/temp-clip" },
 							],
 						},
 						{
-							text: "同步",
-							items: [
-								{
-									text: "附近同步",
-									link: "/zh/features/nearby-sync",
-								},
-								{
-									text: "云同步",
-									link: "/zh/features/cloud-sync",
-								},
-							],
-						},
-						{
-							text: "智能与扩展",
-							items: [
-								{ text: "插件", link: "/zh/features/plugins" },
-							],
+							text: "扩展功能",
+							items: [{ text: "插件", link: "/zh/features/plugins" }],
 						},
 					],
 
-					"/advanced/": [
+					"/zh/advanced/": [
 						{
 							text: "高级使用",
 							items: [
@@ -295,7 +253,7 @@ export default defineConfig({
 						},
 					],
 
-					"/support/": [
+					"/zh/support/": [
 						{
 							text: "帮助中心",
 
@@ -310,7 +268,7 @@ export default defineConfig({
 						},
 					],
 
-					"/community/": [
+					"/zh/community/": [
 						{
 							text: "社区",
 							items: [
@@ -328,7 +286,7 @@ export default defineConfig({
 					],
 
 					// 默认：进入任何未匹配前缀的页面时的侧边栏
-					"/": [
+					"/zh/": [
 						{
 							text: "欢迎",
 							items: [
