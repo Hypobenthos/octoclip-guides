@@ -113,8 +113,8 @@ export default defineConfig({
 							text: "Windows",
 							items: [
 								{
-									text: "Replace Windows Clipboard History",
-									link: "/advanced/windows/windows-clipboard",
+									text: "Replace Clipboard History Shortcut",
+									link: "/advanced/windows/win-v-shortcut",
 								},
 							],
 						},
@@ -265,8 +265,8 @@ export default defineConfig({
 							text: "Windows",
 							items: [
 								{
-									text: "替换 Windows 剪贴板历史",
-									link: "/zh/advanced/windows/windows-clipboard",
+									text: "替换剪贴历史快捷键",
+									link: "/zh/advanced/windows/win-v-shortcut",
 								},
 							],
 						},

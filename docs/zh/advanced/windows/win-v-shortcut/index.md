@@ -1,5 +1,5 @@
 ---
-title: 替换 Windows 剪贴板历史
+title: 替换系统剪贴历史快捷键 (Win+V)
 ---
 
 # {{ $frontmatter.title }}
@@ -126,14 +126,6 @@ A: 可以。你可以把原生功能改到 `Ctrl + Win + V`，两者并存。
 
 **Q: 会影响其他快捷键吗？**
 A: 不会，只修改了 Win+V。
-
----
-
-## 延伸阅读
-
-- [配置 章鱼速贴 剪贴历史](/zh/features/clip-history)
-- [开启 附近同步 功能](/zh/features/nearby-sync)
-- [开启 云同步 功能](/zh/features/cloud-sync)
 
 ---
 

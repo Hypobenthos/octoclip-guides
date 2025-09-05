@@ -1,12 +1,12 @@
 ---
-title: Replace Windows Clipboard History
+title: Replace System Clipboard History Shortcut (Win+V)
 ---
 
 # {{ $frontmatter.title }}
 
 ---
 
-::: warning
+::: tip Windows
 This guide only applies to Windows operating systems.
 :::
 
@@ -125,13 +125,6 @@ A: Yes. You can remap it to `Ctrl + Win + V` if you want both.
 
 **Q: Does it affect other shortcuts?**
 A: No, only `Win + V` is modified.
-
----
-
-## Further Reading
-
-- [Configure Octoclip Clipboard History](/advanced/clip-history)
-- [Enable Nearby Sync](/features/nearby-sync)
 
 ---
 ::: info Author Note
