@@ -2,10 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	srcExclude: [
-		"/README*.md",
-  		"/CONTRIBUTING*.md",
-	],
+	srcExclude: ["/README*.md", "/CONTRIBUTING*.md"],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		socialLinks: [
@@ -105,13 +102,19 @@ export default defineConfig({
 									text: "Platform Differences",
 									link: "/advanced/platform-differences",
 								},
-								{
-									text: "Performance",
-									link: "/advanced/performance",
-								},
+								{ text: "Performance", link: "/advanced/performance" },
 								{
 									text: "Privacy & Security",
 									link: "/advanced/privacy-security",
+								},
+							],
+						},
+						{
+							text: "Windows",
+							items: [
+								{
+									text: "Replace Windows Clipboard History",
+									link: "/advanced/windows/windows-clipboard",
 								},
 							],
 						},
@@ -255,6 +258,15 @@ export default defineConfig({
 								{
 									text: "隐私与安全",
 									link: "/zh/advanced/privacy-security",
+								},
+							],
+						},
+						{
+							text: "Windows",
+							items: [
+								{
+									text: "替换 Windows 剪贴板历史",
+									link: "/zh/advanced/windows/windows-clipboard",
 								},
 							],
 						},
