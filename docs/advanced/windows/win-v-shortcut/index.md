@@ -118,12 +118,15 @@ This restores the native Windows Clipboard History.
 ## FAQ
 
 **Q: Win+V doesn’t work after setup?**
+
 A: Ensure PowerToys or the AHK script is running. Check for conflicts.
 
 **Q: Can I still keep the original Clipboard History?**
+
 A: Yes. You can remap it to `Ctrl + Win + V` if you want both.
 
 **Q: Does it affect other shortcuts?**
+
 A: No, only `Win + V` is modified.
 
 ---
