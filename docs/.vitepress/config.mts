@@ -28,7 +28,7 @@ export default defineConfig({
 					{ text: "Home", link: "/" },
 					{
 						text: "Get Started",
-						link: "/getting-started/installation",
+						link: "/getting-started/",
 					},
 					{ text: "Features", link: "/features/overview" },
 					{ text: "Advanced", link: "/advanced/settings" },
@@ -185,7 +185,7 @@ export default defineConfig({
 					{ text: "首页", link: "/zh/" },
 					{
 						text: "快速开始",
-						link: "/zh/getting-started/installation",
+						link: "/zh/getting-started/",
 					},
 					{ text: "功能", link: "/zh/features/overview" },
 					{ text: "高级", link: "/zh/advanced/settings" },
