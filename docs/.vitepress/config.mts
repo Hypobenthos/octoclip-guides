@@ -65,22 +65,28 @@ export default defineConfig({
 						},
 						{
 							text: "Basics",
-							items: [{ text: "Clip History", link: "/features/clip-history" }],
+							items: [
+								{ text: "Clip History", link: "/features/clip-history" },
+								{
+									text: "Background Monitoring",
+									link: "/features/background-monitoring",
+								},
+							],
 						},
 						{
 							text: "Sync",
 							items: [
 								{ text: "Nearby Sync", link: "/features/nearby-sync" },
 								{ text: "Cloud Sync", link: "/features/cloud-sync" },
+								{
+									text: "Cross-device Paste",
+									link: "/features/cross-device-paste",
+								},
 							],
 						},
 						{
 							text: "Everyday Tips",
 							items: [
-								{
-									text: "Cross-device Copy & Paste",
-									link: "/features/cross-device-copy-paste",
-								},
 								{ text: "Pin Clips", link: "/features/pin-clips" },
 								{ text: "Quick Input", link: "/features/quick-input" },
 								{ text: "Aliases", link: "/features/quick-input-alias" },
@@ -187,18 +193,13 @@ export default defineConfig({
 				],
 
 				sidebar: {
-					"/zh/getting-started/": [
+					"/zh/getting-started": [
 						{
 							text: "快速开始",
+							link: "/zh/getting-started/",
 							items: [
-								{
-									text: "安装",
-									link: "/zh/getting-started/installation",
-								},
-								{
-									text: "首次上手",
-									link: "/zh/getting-started/first-steps",
-								},
+								{ text: "安装", link: "/zh/getting-started/installation" },
+								{ text: "首次上手", link: "/zh/getting-started/first-steps" },
 								{
 									text: "安装常见问题",
 									link: "/zh/getting-started/faq-installation",
@@ -214,22 +215,28 @@ export default defineConfig({
 						},
 						{
 							text: "基础功能",
-							items: [{ text: "剪贴历史", link: "/zh/features/clip-history" }],
+							items: [
+								{ text: "剪贴历史", link: "/zh/features/clip-history" },
+								{
+									text: "剪贴板后台监听",
+									link: "/zh/features/background-monitoring",
+								},
+							],
 						},
 						{
 							text: "跨设备同步",
 							items: [
 								{ text: "附近同步", link: "/zh/features/nearby-sync" },
 								{ text: "云同步", link: "/zh/features/cloud-sync" },
+								{
+									text: "跨设备粘贴",
+									link: "/zh/features/cross-device-paste",
+								},
 							],
 						},
 						{
 							text: "常用技巧",
 							items: [
-								{
-									text: "跨设备复制粘贴",
-									link: "/zh/features/cross-device-copy-paste",
-								},
 								{ text: "固定剪贴", link: "/zh/features/pin-clips" },
 								{ text: "快速输入", link: "/zh/features/quick-input" },
 								{ text: "剪贴别名", link: "/zh/features/quick-input-alias" },
