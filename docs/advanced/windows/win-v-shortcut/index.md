@@ -4,8 +4,6 @@ title: Replace System Clipboard History Shortcut (Win+V)
 
 # {{ $frontmatter.title }}
 
----
-
 ::: tip Windows
 This guide only applies to Windows operating systems.
 :::
@@ -24,16 +22,12 @@ It only stores a small number of items locally and doesn’t work across devices
 
 By remapping **Win + V** to Octoclip, you can enjoy a seamless clipboard experience.
 
----
-
 ## Method Comparison
 
 | Method| Recommended | Best For | Features |
 |---------------|-------------|----------|----------|
 | **PowerToys** | ⭐⭐⭐⭐⭐ | Normal users | Easy to install, GUI-based, stable |
 | **AutoHotKey** | ⭐⭐⭐ | Advanced users | More flexible, script-based, requires manual setup |
-
----
 
 ## Method 1: PowerToys (Recommended)
 
@@ -58,8 +52,6 @@ Open **Keyboard Manager** → “Remap Shortcut”.
 :::
 
 Now pressing `Win + v` will open Octoclip instead of Windows Clipboard History.
-
----
 
 ## Method 2: AutoHotKey (Advanced)
 
@@ -105,15 +97,12 @@ Press `Win + R`, type `shell:startup`, and copy the script into the folder.
 
 ![Copy Script to Startup](007-copy-script-to-startup.webp)
 
----
-
 ## How to Restore Default Win+V
 
 - **PowerToys**: Delete the remapping.
 - **AutoHotKey**: Close or delete the script.
-This restores the native Windows Clipboard History.
 
----
+This restores the native Windows Clipboard History.
 
 ## FAQ
 
@@ -130,6 +119,7 @@ A: Yes. You can remap it to `Ctrl + Win + V` if you want both.
 A: No, only `Win + V` is modified.
 
 ---
+
 ::: info Author Note
 This article was contributed by Octoclip community user **@wwxiaoqi**. Thanks for sharing!
 :::
