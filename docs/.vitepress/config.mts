@@ -50,7 +50,7 @@ export default defineConfig({
 								},
 								{
 									text: "Install FAQ",
-									link: "/getting-started/faq-installation",
+									link: "/getting-started/faq",
 								},
 							],
 						},
@@ -202,7 +202,7 @@ export default defineConfig({
 								{ text: "首次上手", link: "/zh/getting-started/first-steps" },
 								{
 									text: "安装常见问题",
-									link: "/zh/getting-started/faq-installation",
+									link: "/zh/getting-started/faq",
 								},
 							],
 						},

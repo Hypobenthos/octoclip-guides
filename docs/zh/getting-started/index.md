@@ -60,4 +60,4 @@ title: 快速开始
 
 ## 常见问题
 
-遇到问题？请参考 [常见问题](/zh/getting-started/faq)。
+遇到问题？请参考 [安装常见问题](/zh/getting-started/faq)。

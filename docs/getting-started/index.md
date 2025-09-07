@@ -60,4 +60,4 @@ Once you’re set up, try cross-device features:
 
 ## FAQ
 
-Having issues? Check the [FAQ](/getting-started/faq).
+Having issues? Check the [Install FAQ](/getting-started/faq).
