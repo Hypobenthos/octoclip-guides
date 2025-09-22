@@ -14,7 +14,7 @@ title: Windows 专属高级功能
 
 ## 文章列表
 
-- [替换剪贴历史快捷键](/zh/advanced/windows/win-v-shortcut/)
+- [替换 Win+V 快捷键](/zh/advanced/windows/win-v-shortcut/)
 
 学习如何用 Octoclip 替代原生 **Win+V 剪贴板历史**，享受完整的剪贴历史与跨设备同步。
 

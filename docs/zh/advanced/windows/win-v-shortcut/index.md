@@ -1,12 +1,8 @@
 ---
-title: 替换系统剪贴历史快捷键 (Win+V)
+title: 替换 Win+V 快捷键
 ---
 
-# {{ $frontmatter.title }}
-
-::: tip Windows
-本文操作仅适用于 Windows 操作系统。
-:::
+# {{ $frontmatter.title }} <PlatformBadge platform="Windows" text="Windows 10+" />
 
 ## 为什么要替换？
 

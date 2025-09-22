@@ -1,12 +1,8 @@
 ---
-title: Replace System Clipboard History Shortcut (Win+V)
+title: Replace Win+V Shortcut
 ---
 
-# {{ $frontmatter.title }}
-
-::: tip Windows
-This guide only applies to Windows operating systems.
-:::
+# {{ $frontmatter.title }} <PlatformBadge platform="Windows" text="Windows 10+" />
 
 ## Why Replace It?
 

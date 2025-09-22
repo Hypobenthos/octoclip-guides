@@ -14,7 +14,7 @@ They are recommended for users who want to customize their workflow or replace n
 
 ## Articles
 
-- [Replace Clipboard History Shortcut](/advanced/windows/win-v-shortcut/)
+- [Replace Win+V Shortcut](/advanced/windows/win-v-shortcut/)
 
 Learn how to replace the native **Win+V Clipboard History** with Octoclip, gaining full history and cross-device sync.
 
