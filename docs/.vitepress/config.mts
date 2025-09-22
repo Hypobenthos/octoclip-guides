@@ -26,10 +26,7 @@ export default defineConfig({
 			themeConfig: {
 				nav: [
 					{ text: "Home", link: "/" },
-					{
-						text: "Get Started",
-						link: "/getting-started/",
-					},
+					{ text: "Get Started", link: "/getting-started/installation" },
 					{ text: "Features", link: "/features/overview" },
 					{ text: "Advanced", link: "/advanced/settings" },
 					{ text: "Support", link: "/support/faq" },
@@ -49,7 +46,7 @@ export default defineConfig({
 									link: "/getting-started/first-steps",
 								},
 								{
-									text: "Install FAQ",
+									text: "FAQ",
 									link: "/getting-started/faq",
 								},
 							],
@@ -185,7 +182,7 @@ export default defineConfig({
 					{ text: "首页", link: "/zh/" },
 					{
 						text: "快速开始",
-						link: "/zh/getting-started/",
+						link: "/zh/getting-started/installation",
 					},
 					{ text: "功能", link: "/zh/features/overview" },
 					{ text: "高级", link: "/zh/advanced/settings" },
@@ -196,14 +193,10 @@ export default defineConfig({
 					"/zh/getting-started": [
 						{
 							text: "快速开始",
-							link: "/zh/getting-started/",
 							items: [
 								{ text: "安装", link: "/zh/getting-started/installation" },
 								{ text: "首次上手", link: "/zh/getting-started/first-steps" },
-								{
-									text: "安装常见问题",
-									link: "/zh/getting-started/faq",
-								},
+								{ text: "常见问题", link: "/zh/getting-started/faq" },
 							],
 						},
 					],
