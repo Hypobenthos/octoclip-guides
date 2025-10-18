@@ -32,10 +32,10 @@ const iconComponent = iconMap[props.platform] || null;
 const platformIconColors = {
   ios: {
     light: '#333333',
-    dark: '#CCCCCC'
+    dark: '#FFFFFF'
   },
   macos: {
-    light: '#000000',
+    light: '#333333',
     dark: '#FFFFFF'
   },
   android: {
