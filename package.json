@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "@biomejs/biome": "^2.2.3",
-    "vitepress": "^2.0.0-alpha.12"
+    "@biomejs/biome": "^2.3.8",
+    "vitepress": "^2.0.0-alpha.15"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
