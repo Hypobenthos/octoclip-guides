@@ -21,6 +21,7 @@ When the app is not running in the foreground, it continuously monitors changes 
 
 Due to privacy restrictions, Android 10 and above limit background access to the clipboard by default.  
 The following approaches can achieve a near–background monitoring experience and capabilities such as:
+
 - Complete clipboard history  
 - Cross-device syncing (including nearby and cloud sync)
 
@@ -37,14 +38,17 @@ The following approaches can achieve a near–background monitoring experience a
 ### 1) Shizuku
 
 **Target Users**  
+
 - Those who don’t want to root their device but want full-feature access.
 
 **Advantages**  
+
 - **High stability:** More comprehensive monitoring of copy actions; more reliable background listening.  
 - **Relatively safe:** Permissions are controlled and revocable, avoiding full exposure risks.  
 - **Highly flexible:** Permissions can be dynamically managed and granted on demand.
 
 **Configuration and Setup**  
+
 - [View detailed setup guide](./background-monitoring/Android/shizuku/index.md)
 
 ---
@@ -52,13 +56,16 @@ The following approaches can achieve a near–background monitoring experience a
 ### 2) Accessibility Mode
 
 **Target Users**  
+
 - General users who prefer simple setup and use near-stock Android systems.
 
 **Advantages**  
+
 - **Easy to use:** Enabled directly through system settings; quick setup.  
 - **Relatively safe:** Permission scope is system-limited and visible to the user.
 
 **Configuration and Setup**  
+
 - [View detailed setup guide](./background-monitoring/Android/accessibility/index.md)
 
 ---
@@ -66,14 +73,17 @@ The following approaches can achieve a near–background monitoring experience a
 ### 3) Root
 
 **Target Users**  
+
 - Advanced users who have rooted their devices and want full system control.
 
 **Advantages**  
+
 - **Highest privileges:** Can bypass system restrictions and access protected resources.  
 - **Stable and reliable:** Continues functioning long-term after setup.  
 - **Highly compatible:** Works across different Android versions.
 
 **Configuration and Setup**  
+
 - [View detailed setup guide](./background-monitoring/Android/root/)
 
 ---

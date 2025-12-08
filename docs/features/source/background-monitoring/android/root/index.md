@@ -91,10 +91,12 @@ A: Please check the following:
 **Q: LSPosed installation failed?**
 
 Possible causes:  
+
 - Magisk version too low (requires v24.0+)  
 - Zygisk not properly enabled  
 
 Solution:  
+
 1. Update Magisk to the latest version  
 2. Re-enable Zygisk and fully reboot the device  
 
@@ -103,6 +105,7 @@ Solution:
 **Q: LSPosed icon not showing?**
 
 Steps to fix:  
+
 1. After installing the Clipboard Whitelist APK, tap the prompt to open the LSPosed module  
 2. Inside LSPosed, switch to the **Settings** tab  
 3. Tap **Create shortcut** to add the LSPosed icon to your home screen  
@@ -114,6 +117,7 @@ Steps to fix:
 **Q: Clipboard Whitelist not showing app list?**
 
 Solution:  
+
 1. Open **System Settings → App Management → Clipboard Whitelist**  
 2. Tap **Permission Management**  
 3. Enable **Get app list** or **Read app info** permission  
