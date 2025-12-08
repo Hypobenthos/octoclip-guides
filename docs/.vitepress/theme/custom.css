@@ -1,0 +1,12 @@
+/* .vitepress/theme/custom.css */
+:root {
+	/**custom theme*/
+	--vp-c-brand-1: #0b7c68;
+	--vp-c-brand-2: #4abf9b;
+	--vp-c-brand-3: #0a6f57;
+
+	/*预售价格高亮*/
+	--vp-c-brand-price: #0b7c68;
+	--vp-c-brand-price-theme: #3fc69c;
+	--vp-c-brand-price-hover: #14a785;
+}
