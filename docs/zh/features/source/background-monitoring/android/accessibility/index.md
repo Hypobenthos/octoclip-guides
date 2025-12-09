@@ -20,13 +20,13 @@
    - 关闭电池优化  
    - 启用应用的辅助功能权限  
 
-   ![grant_permissions](./grant-permissions-accessibility.jpg)
+   ![授予权限](./grant-permissions-accessibility.jpg)
 
 2. 完成全部授权后，点击 **完成** 激活剪贴板监听功能。  
 
 3. 启用 **后台监控** 开关，以开启后台剪贴板监控功能。  
 
-   ![enable_monitor](./enable-monitor-accessibility.jpg)
+   ![启用后台监听](./enable-monitor-accessibility.jpg)
 
 ## 功能验证
 

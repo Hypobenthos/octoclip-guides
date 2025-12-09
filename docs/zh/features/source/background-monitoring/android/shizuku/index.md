@@ -26,13 +26,13 @@
    - 授予 Shizuku 权限  
    - 授予应用权限  
 
-   ![grant_permissions](./grant-permissions.jpg)
+   ![授予权限](./grant-permissions.jpg)
 
 4. 完成全部授权后，点击 **完成** 以激活剪贴板监听功能。
 
 5. 打开「**后台监控**」开关，启用剪贴板后台监听。  
 
-   ![enable_monitor](./enable-monitor-shizuku.jpg)
+   ![启用后台监听](./enable-monitor-shizuku.jpg)
 
 ## 功能验证
 
@@ -50,7 +50,7 @@
 2. 打开章鱼速贴
 3. 重新执行授权流程
 
-![log-grant](./log-grant.jpg)
+![日志授权](./log-grant.jpg)
 
 ---
 

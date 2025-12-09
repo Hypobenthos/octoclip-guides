@@ -16,7 +16,7 @@
 2. 进入设置 → 确认 Zygisk 开关已开启
 3. 重启设备使 Zygisk 生效
 
-![check_zygisk](./check-zygisk.jpg)
+![检查Zygisk](./check-zygisk.jpg)
 
 :::
 
@@ -33,13 +33,13 @@
 
 你可以从[Github](https://github.com/LSPosed/LSPosed/releases)上自行下载，也可以直接点击 [此处](https://github.com/LSPosed/LSPosed/releases/download/v1.9.2/LSPosed-v1.9.2-7024-zygisk-release.zip) 下载。
 
-![download](./download-lsposed.jpg)
+![下载LSPosed](./download-lsposed.jpg)
 
 ### 安装框架
 
 打开 **Magisk** 应用，切换到 **模块** 标签页，点击 **从本地安装** 按钮，选择下载的 LSPosed `.zip` 文件，等待安装完成，点击 **重启** 按钮。
 
-![install_lsposed](./install-lsposed.jpg)
+![安装LSPosed](./install-lsposed.jpg)
 
 ## 安装「剪贴板白名单」模块
 
@@ -47,19 +47,19 @@
 
 你可以从[Github](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.clipboardwhitelist/releases)上自行下载，也可直接点击 [此处](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.clipboardwhitelist/releases/download/1-1.0.0/app-release.apk) 获取安装包。
 
-![download-cw](./download-cw.jpg)
+![下载剪贴板白名单](./download-cw.jpg)
 
 ### 启用模块
 
 安装成功后，在 LSPosed 管理器的 **模块** 页面启用该模块
 
-![enable-cp](./enable-cp.jpg)
+![启用剪贴板白名单](./enable-cp.jpg)
 
 ## 配置应用白名单
 
 打开 **剪贴板白名单** 应用，找到并勾选 **章鱼速贴**
 
-![enable_octoclip_mark](./enable-octoclip.jpg)
+![启用章鱻速贴](./enable-octoclip.jpg)
 
 ::: warning 应用列表读取权限提示
 如果在剪贴板白名单应用中无法显示应用列表，请执行以下操作：
@@ -109,7 +109,7 @@ A: 请依次检查：
 2. 在 LSPosed 内切换到 **设置** 标签页
 3. 点击 **创建快捷方式** ，即可在桌面生成 LSPosed 图标
 
-![create-shortcut](./create-shortcut.jpg)
+![创建快捷方式](./create-shortcut.jpg)
 
 **Q: 剪贴板白名单无法显示应用列表？**
 

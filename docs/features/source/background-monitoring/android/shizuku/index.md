@@ -26,13 +26,13 @@ Follow the in‑app prompts to complete the following steps:
    - Grant Shizuku Permission  
    - Grant App permissions
 
-   ![grant_permissions](./grant-permissions.jpg)
+   ![Grant Permissions](./grant-permissions.jpg)
 
 4. After completing all authorizations, tap **Doen** to activate clipboard monitoring.
 
 5. Turn on the **Background Monitoring** switch to enable continuous clipboard tracking.  
 
-   ![enable_monitor](./enable-monitor-shizuku.jpg)
+   ![Enable Monitor](./enable-monitor-shizuku.jpg)
 
 ## Function Verification
 
@@ -53,7 +53,7 @@ If no authorization dialog appeared or permissions were not correctly granted, t
 2. Open Octoclip;  
 3. Re‑run the authorization process.  
 
-![log-grant](./log-grant.jpg)
+![Log Grant](./log-grant.jpg)
 
 ---
 

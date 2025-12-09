@@ -20,13 +20,13 @@ Follow the on-screen instructions to complete the following steps:
    - Battery Optimization  
    - Accessibility
 
-   ![grant_permissions](./grant-permissions-accessibility.jpg)
+   ![Grant Permissions](./grant-permissions-accessibility.jpg)
 
 2. After all permissions are granted, tap **Done** to activate clipboard monitoring.  
 
 3. Enable the **Background Monitoring** switch to start background clipboard monitoring.  
 
-   ![enable_monitor](./enable-monitor-accessibility.jpg)
+   ![Enable Monitor](./enable-monitor-accessibility.jpg)
 
 ## Function Verification
 

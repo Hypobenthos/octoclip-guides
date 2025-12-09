@@ -16,7 +16,7 @@ This guide will help Rooted users enable clipboard background monitoring by inst
 2. Go to **Home** → Verify that the **Zygisk** switch is enabled  
 3. Restart the device to activate Zygisk  
 
-![check_zygisk](./check-zygisk.jpg)
+![Check Zygisk](./check-zygisk.jpg)
 
 :::
 
@@ -26,7 +26,7 @@ This guide will help Rooted users enable clipboard background monitoring by inst
 
 You can download it from the [GitHub release page](https://github.com/LSPosed/LSPosed/releases), or directly from [here](https://github.com/LSPosed/LSPosed/releases/download/v1.9.2/LSPosed-v1.9.2-7024-zygisk-release.zip).  
 
-![download](./download-lsposed.jpg)
+![Download LSPosed](./download-lsposed.jpg)
 
 ### Install the framework
 
@@ -35,7 +35,7 @@ You can download it from the [GitHub release page](https://github.com/LSPosed/LS
 3. Tap **Install from storage**, then select the downloaded LSPosed `.zip` file  
 4. Wait for the installation to complete, then tap **Reboot**  
 
-![install_lsposed](./install-lsposed.jpg)
+![Install LSPosed](./install-lsposed.jpg)
 
 ## Install the “Clipboard Whitelist” Module
 
@@ -43,20 +43,20 @@ You can download it from the [GitHub release page](https://github.com/LSPosed/LS
 
 You can get it from the [GitHub release page](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.clipboardwhitelist/releases), or download it directly from [here](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.clipboardwhitelist/releases/download/1-1.0.0/app-release.apk).  
 
-![download-cw](./download-cw.jpg)
+![Download Clipboard Whitelist](./download-cw.jpg)
 
 ### Enable the module
 
 Once installed, go to the **Modules** page in the LSPosed manager and enable the module.  
 
-![enable-cp](./enable-cp.jpg)
+![Enable Clipboard Whitelist](./enable-cp.jpg)
 
 ## Configure the App Whitelist
 
 1. Open the **Clipboard Whitelist** app  
 2. Find and check **Octoclip**  
 
-![enable_Octoclip_mark](./enable-Octoclip.jpg)
+![Enable Octoclip](./enable-octoclip.jpg)
 
 ::: warning App list permission notice
 If the app list is not displayed in Clipboard Whitelist, you need to:  
@@ -110,7 +110,7 @@ Steps to fix:
 2. Inside LSPosed, switch to the **Settings** tab  
 3. Tap **Create shortcut** to add the LSPosed icon to your home screen  
 
-![create-shortcut](./create-shortcut.jpg)
+![Create Shortcut](./create-shortcut.jpg)
 
 ---
 
