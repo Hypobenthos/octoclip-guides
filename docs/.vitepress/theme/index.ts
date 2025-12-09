@@ -9,6 +9,7 @@ import {
 	PhWindowsLogo,
 	PhLinuxLogo,
 } from "@phosphor-icons/vue";
+import './custom.css'
 
 export default {
 	...DefaultTheme,

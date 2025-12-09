@@ -65,8 +65,27 @@ export default defineConfig({
 							items: [
 								{ text: "Clip History", link: "/features/clip-history" },
 								{
-									text: "Background Monitoring",
-									link: "/features/background-monitoring",
+									text: "Clip Sources",
+									items: [
+										{
+											text: "Clipboard",
+											link: "/features/source/clipboard",
+											items: [
+												{
+													text: "Background Monitoring",
+													link: "/features/source/background-monitoring",
+												},
+											],
+										},
+										{
+											text: "SMS",
+											link: "/features/source/sms",
+										},
+										{
+											text: "Screenshots",
+											link: "/features/source/screenshots",
+										},
+									],
 								},
 							],
 						},
@@ -211,8 +230,27 @@ export default defineConfig({
 							items: [
 								{ text: "剪贴历史", link: "/zh/features/clip-history" },
 								{
-									text: "剪贴板后台监听",
-									link: "/zh/features/background-monitoring",
+									text: "剪贴来源",
+									items: [
+										{
+											text: "剪贴板",
+											link: "/zh/features/source/clipboard",
+											items: [
+												{
+													text: "后台监控",
+													link: "/zh/features/source/background-monitoring",
+												},
+											],
+										},
+										{
+											text: "短信",
+											link: "/zh/features/source/sms",
+										},
+										{
+											text: "屏幕截图",
+											link: "/zh/features/source/screenshots",
+										},
+									],
 								},
 							],
 						},
