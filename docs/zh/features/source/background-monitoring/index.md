@@ -53,9 +53,9 @@
 ## 相关页面
 
 - **Android 授权方式**  
-  - Shizuku（推荐）：[启用剪贴板后台监听（Shizuku）]( /zh/features/background-monitoring/android/shizuku/)
-  - 无障碍模式：[启用剪贴板后台监听（无障碍）]( /zh/features/background-monitoring/android/accessibility/)
-  - Root 模式：[启用剪贴板后台监听（Root）]( /zh/features/background-monitoring/android/root/)
+  - Shizuku（推荐）：[启用剪贴板后台监听（Shizuku）](/zh/features/source/background-monitoring/android/shizuku/)
+  - 无障碍模式:[启用剪贴板后台监听(无障碍)](/zh/features/source/background-monitoring/android/accessibility/)
+  - Root 模式:[启用剪贴板后台监听(Root)](/zh/features/source/background-monitoring/android/root/)
 - **iOS 触发入口**  
   - 系统分享与快捷指令：/zh/features/background-monitoring/ios/shortcuts
 - **进阶**  

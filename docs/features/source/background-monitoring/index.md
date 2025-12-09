@@ -49,7 +49,7 @@ The following approaches can achieve a near–background monitoring experience a
 
 **Configuration and Setup**  
 
-- [View detailed setup guide](./background-monitoring/Android/shizuku/index.md)
+- [View detailed setup guide](./android/shizuku/index.md)
 
 ---
 
@@ -66,7 +66,7 @@ The following approaches can achieve a near–background monitoring experience a
 
 **Configuration and Setup**  
 
-- [View detailed setup guide](./background-monitoring/Android/accessibility/index.md)
+- [View detailed setup guide](./android/accessibility/index.md)
 
 ---
 
@@ -84,7 +84,7 @@ The following approaches can achieve a near–background monitoring experience a
 
 **Configuration and Setup**  
 
-- [View detailed setup guide](./background-monitoring/Android/root/)
+- [View detailed setup guide](./android/root/)
 
 ---
 
