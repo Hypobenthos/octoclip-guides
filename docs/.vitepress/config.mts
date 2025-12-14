@@ -62,30 +62,26 @@ export default defineConfig({
 						},
 						{
 							text: "Basics",
+							items: [{ text: "Clip History", link: "/features/clip-history" }],
+						},
+						{
+							text: "Clip Sources",
 							items: [
-								{ text: "Clip History", link: "/features/clip-history" },
 								{
-									text: "Clip Sources",
-									items: [
-										{
-											text: "Clipboard",
-											link: "/features/source/clipboard",
-											items: [
-												{
-													text: "Background Monitoring",
-													link: "/features/source/background-monitoring",
-												},
-											],
-										},
-										{
-											text: "SMS",
-											link: "/features/source/sms",
-										},
-										{
-											text: "Screenshots",
-											link: "/features/source/screenshots",
-										},
-									],
+									text: "Clipboard",
+									link: "/features/source/clipboard",
+								},
+								{
+									text: "Background Monitoring",
+									link: "/features/source/background-monitoring",
+								},
+								{
+									text: "SMS",
+									link: "/features/source/sms",
+								},
+								{
+									text: "Screenshots",
+									link: "/features/source/screenshots",
 								},
 							],
 						},
@@ -227,35 +223,31 @@ export default defineConfig({
 						},
 						{
 							text: "基础功能",
+							items: [{ text: "剪贴历史", link: "/zh/features/clip-history" }],
+						},
+						{
+							text: "剪贴来源",
 							items: [
-								{ text: "剪贴历史", link: "/zh/features/clip-history" },
 								{
-									text: "剪贴来源",
-									items: [
-										{
-											text: "剪贴板",
-											link: "/zh/features/source/clipboard",
-											items: [
-												{
-													text: "后台监控",
-													link: "/zh/features/source/background-monitoring",
-												},
-											],
-										},
-										{
-											text: "短信",
-											link: "/zh/features/source/sms",
-										},
-										{
-											text: "屏幕截图",
-											link: "/zh/features/source/screenshots",
-										},
-									],
+									text: "剪贴板",
+									link: "/zh/features/source/clipboard",
+								},
+								{
+									text: "剪贴板后台监控",
+									link: "/zh/features/source/background-monitoring",
+								},
+								{
+									text: "短信",
+									link: "/zh/features/source/sms",
+								},
+								{
+									text: "屏幕截图",
+									link: "/zh/features/source/screenshots",
 								},
 							],
 						},
 						{
-							text: "跨设备同步",
+							text: "同步",
 							items: [
 								{ text: "附近同步", link: "/zh/features/nearby-sync" },
 								{ text: "云同步", link: "/zh/features/cloud-sync" },
