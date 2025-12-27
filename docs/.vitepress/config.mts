@@ -73,7 +73,7 @@ export default defineConfig({
 								},
 								{
 									text: "Background Monitoring",
-									link: "/features/source/background-monitoring",
+									link: "/features/source/background-monitoring/",
 								},
 								{
 									text: "SMS",
@@ -234,7 +234,7 @@ export default defineConfig({
 								},
 								{
 									text: "剪贴板后台监控",
-									link: "/zh/features/source/background-monitoring",
+									link: "/zh/features/source/background-monitoring/",
 								},
 								{
 									text: "短信",
